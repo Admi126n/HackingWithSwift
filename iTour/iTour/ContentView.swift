@@ -40,7 +40,7 @@ struct ContentView: View {
         }
     }
     
-    func addDestination() {
+    private func addDestination() {
         let destination = Destination()
         modelContext.insert(destination)
         path = [destination]
