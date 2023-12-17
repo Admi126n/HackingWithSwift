@@ -18,6 +18,9 @@
 		663E40872B12B222009CF7F4 /* Rainbow.metal in Sources */ = {isa = PBXBuildFile; fileRef = 663E40862B12B222009CF7F4 /* Rainbow.metal */; };
 		663E40892B12B403009CF7F4 /* Wave.metal in Sources */ = {isa = PBXBuildFile; fileRef = 663E40882B12B403009CF7F4 /* Wave.metal */; };
 		663E408B2B12B86E009CF7F4 /* RelativeWave.metal in Sources */ = {isa = PBXBuildFile; fileRef = 663E408A2B12B86E009CF7F4 /* RelativeWave.metal */; };
+		669294B12B2FA7A6003DF9B5 /* Loupe.metal in Sources */ = {isa = PBXBuildFile; fileRef = 669294B02B2FA7A6003DF9B5 /* Loupe.metal */; };
+		669294B42B2FABFB003DF9B5 /* Circles.metal in Sources */ = {isa = PBXBuildFile; fileRef = 669294B32B2FABFB003DF9B5 /* Circles.metal */; };
+		669294B62B2FAF02003DF9B5 /* Crosswarp.metal in Sources */ = {isa = PBXBuildFile; fileRef = 669294B52B2FAF02003DF9B5 /* Crosswarp.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		663E40862B12B222009CF7F4 /* Rainbow.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Rainbow.metal; sourceTree = "<group>"; };
 		663E40882B12B403009CF7F4 /* Wave.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Wave.metal; sourceTree = "<group>"; };
 		663E408A2B12B86E009CF7F4 /* RelativeWave.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = RelativeWave.metal; sourceTree = "<group>"; };
+		669294B02B2FA7A6003DF9B5 /* Loupe.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Loupe.metal; sourceTree = "<group>"; };
+		669294B32B2FABFB003DF9B5 /* Circles.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Circles.metal; sourceTree = "<group>"; };
+		669294B52B2FAF02003DF9B5 /* Crosswarp.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Crosswarp.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,7 @@
 				663E40702B12AE5E009CF7F4 /* ContentView.swift */,
 				663E40802B12B042009CF7F4 /* SimpleShaders */,
 				663E40852B12B1F1009CF7F4 /* ShadersAcceptingValues */,
+				669294B22B2FAB4B003DF9B5 /* Transitions */,
 				663E40722B12AE5F009CF7F4 /* Assets.xcassets */,
 				663E40742B12AE5F009CF7F4 /* Preview Content */,
 			);
@@ -100,8 +107,18 @@
 				663E40862B12B222009CF7F4 /* Rainbow.metal */,
 				663E40882B12B403009CF7F4 /* Wave.metal */,
 				663E408A2B12B86E009CF7F4 /* RelativeWave.metal */,
+				669294B02B2FA7A6003DF9B5 /* Loupe.metal */,
 			);
 			path = ShadersAcceptingValues;
+			sourceTree = "<group>";
+		};
+		669294B22B2FAB4B003DF9B5 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				669294B32B2FABFB003DF9B5 /* Circles.metal */,
+				669294B52B2FAF02003DF9B5 /* Crosswarp.metal */,
+			);
+			path = Transitions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,12 +194,15 @@
 				663E40842B12B12E009CF7F4 /* GradientFill.metal in Sources */,
 				663E407F2B12B039009CF7F4 /* Recolor.metal in Sources */,
 				663E40712B12AE5E009CF7F4 /* ContentView.swift in Sources */,
+				669294B12B2FA7A6003DF9B5 /* Loupe.metal in Sources */,
 				663E40872B12B222009CF7F4 /* Rainbow.metal in Sources */,
 				663E407D2B12AE9E009CF7F4 /* Passthrough.metal in Sources */,
 				663E406F2B12AE5E009CF7F4 /* MetalTutorialApp.swift in Sources */,
 				663E40822B12B0E1009CF7F4 /* InvertAlpha.metal in Sources */,
+				669294B62B2FAF02003DF9B5 /* Crosswarp.metal in Sources */,
 				663E40892B12B403009CF7F4 /* Wave.metal in Sources */,
 				663E408B2B12B86E009CF7F4 /* RelativeWave.metal in Sources */,
+				669294B42B2FABFB003DF9B5 /* Circles.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
